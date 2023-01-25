@@ -3,7 +3,7 @@ import { Header } from "./componentes/Header";
 import "boxicons";
 import { BrowserRouter as Router } from "react-router-dom";
 import { Paginas } from "./Paginas";
-import { DataProvider } from "./context/DataProvider";
+import { DataProvider } from "./componentes/context/DataProvider";
 
 function App() {
   return (
