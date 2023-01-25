@@ -1,14 +1,14 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import { Inicio } from "./Inicio";
-import { ProductosLista } from "./Productos/index";
+import { Inicio } from "./componentes/Inicio";
+import { ProductosLista } from "./componentes/Productos";
 
 export const Paginas = () => {
   return (
     <section>
       <Routes>
-        <Route path="/" exact component={Inicio} />
-        <Route path="/productos" exact component={ProductosLista} />
+        <Route path="/" element={<Inicio />} />
+        <Route path="/productos" element={<ProductosLista />} />
       </Routes>
     </section>
   );
