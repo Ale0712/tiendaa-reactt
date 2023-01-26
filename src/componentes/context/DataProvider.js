@@ -24,7 +24,7 @@ export const DataProvider = (props) => {
     });
     if (check) {
       const data = productos.filter((producto) => {
-        return producto.id == id;
+        return producto.id === id;
       });
       setCarrito([...carrito, ...data]);
     } else {
