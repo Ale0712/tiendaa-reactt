@@ -318,6 +318,34 @@ header ul li a {
 */
 */
 
+/*--------------DETALLES PRODUCTO--------------*/
+.detalle {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 13rem 1rem 1rem 1rem;
+  box-sizing: border-box;
+}
+
+.detalles .price {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #08a05c;
+}
+.detalles button {
+  max-width: 300px;
+  margin: 1rem 0 0 0;
+  padding: 1rem 1rem;
+  border: none;
+  outline: 0;
+  background-color: #3033d3;
+  font-size: 1.3rem;
+  color: white;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
 /* ----------------- MEDIA -------------------*/
 @media only screen and (max-width: 1000px) {
   .carrito__item {
