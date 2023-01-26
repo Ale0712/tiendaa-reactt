@@ -18,13 +18,6 @@ export const ProductoDetalles = () => {
 
   return (
     <>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
       {
         <div className="detalles">
           <h2>{detalle.title}</h2>
@@ -41,31 +34,25 @@ export const ProductoDetalles = () => {
                 <option value="1">6</option>
                 <option value="1">7</option>
                 <option value="1">8</option>
+                <option value="1">9</option>
               </select>
               <p>Tamaño</p>
-              <button>Añadir al carrito</button>
             </div>
           </div>
-          <img
-            src="https://stockx-360.imgix.net/Nike-LD-Waffle-Sacai-Black-Nylon/Images/Nike-LD-Waffle-Sacai-Black-Nylon/Lv2/img01.jpg?auto=format,compress&q=90&updated_at=1606321430&w=1000"
-            alt={detalle.title}
-          />
-          {/* <input type="range" min="1" max="36" /> */}
+          <button>Añadir al carrito</button>
+          <img src={detalle.image} alt={detalle.title} />
+          <input type="range" min="1" max="36" />
           <div className="description">
             <p>
-              <b>description: </b> Lorem ipsum dolor, sit amet consectetur
-              adipisicing elit. Cum necessitatibus soluta alias porro, saepe
-              facere expedita asperiores quos fugit inventore ex, itaque
-              sapiente quae pariatur beatae optio repellat aperiam quia possimus
-              mollitia repellendus? Illo natus quam eaque impedit omnis
-              pariatur!
-            </p>
-            <br />
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
-              vitae accusantium omnis, facere laudantium ipsa hic reprehenderit
-              blanditiis quibusdam quos repellendus id illo reiciendis magni,
-              aliquid beatae, consequatur sapiente! Sequi facere itaque,
+              <b>description:</b> Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Voluptatibus maiores, sit quasi excepturi aut
+              debitis. Fuga ipsam, praesentium inventore, recusandae velit
+              nesciunt magni cumque veniam nisi dolore maiores enim amet. <br />
+              <br />
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Cupiditate quasi laboriosam animi quod eos officiis praesentium
+              quae beatae quo saepe, tempore ipsam quas? Dolore at qui id porro,
+              exercitationem quibusdam.
             </p>
           </div>
         </div>
