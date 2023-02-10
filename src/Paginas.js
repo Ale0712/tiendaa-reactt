@@ -6,12 +6,10 @@ import { ProductoDetalles } from "./componentes/Productos/ProductoDetalles";
 
 export const Paginas = () => {
   return (
-    <section>
-      <Routes>
-        <Route path="/" element={<Inicio />} />
-        <Route path="/productos" element={<ProductosLista />} />
-        <Route path="/producto/:id" element={<ProductoDetalles />} />
-      </Routes>
-    </section>
+    <Routes>
+      <Route path="/" element={<Inicio />} />
+      <Route path="/productos" element={<ProductosLista />} />
+      <Route path="/producto/:id" element={<ProductoDetalles />} />
+    </Routes>
   );
 };
